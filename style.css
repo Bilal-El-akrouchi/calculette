@@ -17,6 +17,8 @@ body{
 .calculette{
     background-color: rgba(49, 34, 5, 0.5);
     backdrop-filter : blur(4px);
+    position: relative;
+    left: 10%;
 
 }
 .img{
@@ -37,12 +39,18 @@ body{
     justify-content: center;
     align-items: center;
     
-    width: 30px;
-    height: 30px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
 }
 .bi-star-fill{
     font-size: 0.3em;
     color: white;
+}
+
+.input{
+    height: 10vh;
+    font-size: 1.8em;
+    padding-top: 6px;
 }
 /* LIGNE  2 */
